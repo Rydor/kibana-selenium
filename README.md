@@ -33,7 +33,7 @@ In order to ensure operation in headless mode you will need to install phantomJS
     user:
         kibana
     password: on infra
-        grep -R "kibana_password" /etc/openstack_deploy/user_extras_secrets.yml
+        grep -R "kibana_password" /etc/openstack_deploy/user_rpco_secrets.yml
     external_vip: on infra
         IAD3-LAB02:
             grep -R "external_lb_vip_address" /etc/openstack_deploy/openstack_user_config.yml
